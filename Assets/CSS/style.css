@@ -112,8 +112,6 @@ section {
 
 section h2{
     background-color: #dbc2a4;
-    background-clip: border-box;
-    box-shadow: -0.5em 0px 0px 0 #782221;
 }
 
 aside {
@@ -136,8 +134,6 @@ aside > p {
 aside h2 {
     background-color: #dbc2a4;
     color: black;
-    background-clip: border-box;
-    box-shadow: -2em 0px 0px 0 #dbc2a4;
     
     
 }
