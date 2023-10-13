@@ -19,7 +19,12 @@ header {
     justify-content: center;
 }
 
-header > img {
+header > a {
+    display: flex;
+    flex-direction: row ;
+    align-self: center;
+}
+header a img {
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -61,19 +66,20 @@ address {
     padding-left: 2em;
 }
 
-address p {
+address a {
     display: flex;
     flex-direction: row;
     flex-basis: 33%;
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: inherit;
 }
 
 #adress {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 
@@ -141,7 +147,7 @@ footer {
     
 }
 
-footer > img {
+footer  img {
     display: flex;
     width: 2rem;
     height: 2rem;
