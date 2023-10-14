@@ -12,6 +12,12 @@ body {
 p {
     font-family: "Raleway", sans-serif;
 }
+
+a:hover{
+ cursor: pointer;
+ text-decoration: underline;
+}
+
 header {
     background-color:#782221 ;
     display: flex;
@@ -23,6 +29,10 @@ header > a {
     display: flex;
     flex-direction: row ;
     align-self: center;
+}
+
+header img:hover{
+    cursor: zoom-in;
 }
 header a img {
     display: flex;
@@ -106,14 +116,18 @@ section {
     justify-content: left;
     flex-basis: 70%;
     padding-left: 3em ;
-    
-
 }
 
 section h2{
     background-color: #dbc2a4;
     background-clip: border-box;
     box-shadow: -0.5em 0px 0px 0 #782221;
+}
+
+section h3:hover {
+    cursor: default;
+    border-right: 1em solid #6d071a;
+    margin-right: 12em;
 }
 
 aside {
@@ -137,7 +151,7 @@ aside h2 {
     background-color: #dbc2a4;
     color: black;
     background-clip: border-box;
-    box-shadow: -2em 0px 0px 0 #dbc2a4
+    box-shadow: -1.4em 0px 0px 0 #dbc2a4
 }
 footer {
     background-color: #782221;
@@ -158,6 +172,10 @@ div a {
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-bottom:1em;
+}
+
+footer img:hover{
+    opacity: 0.5;
 }
 footer  img {
     display: flex;
