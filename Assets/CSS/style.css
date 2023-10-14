@@ -161,7 +161,7 @@ footer {
     min-height: 111px;
 }
 
-div {
+footer div {
     display:flex;
     flex-direction: row;
     justify-content: center;
